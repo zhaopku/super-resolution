@@ -18,7 +18,8 @@ The above command trains a GAN-based model, with upscale factor 4.
         
 ## Examples
 
-The **GAN-based** model produced sharper super-resolution images compared with **bicubic**.
+The **GAN-based** model produced sharper super-resolution images compared with **bicubic**. 
+Especially when the scaling factor is large.
 
 ### up scale by 2
 
@@ -33,6 +34,13 @@ The **GAN-based** model produced sharper super-resolution images compared with *
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![bicubic](test_out_images/statue/up_4/index_0_lr.jpg)  |  ![bicubic](test_out_images/statue/up_4/index_0_bi.jpg) |  ![bicubic](test_out_images/statue/up_4/index_0_sr.jpg)|  ![bicubic](test_out_images/statue/up_4/index_0_hr.jpg)
 ![bicubic](test_out_images/stillLife/up_4/index_0_lr.jpg)  |  ![bicubic](test_out_images/stillLife/up_4/index_0_bi.jpg) |  ![bicubic](test_out_images/stillLife/up_4/index_0_sr.jpg)|  ![bicubic](test_out_images/stillLife/up_4/index_0_hr.jpg)
+
+### up scale by 8
+
+**low-res**   |  **bicubic** | **GAN** | **original**
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![bicubic](test_out_images/statue/up_8/index_0_lr.jpg)  |  ![bicubic](test_out_images/statue/up_8/index_0_bi.jpg) |  ![bicubic](test_out_images/statue/up_8/index_0_sr.jpg)|  ![bicubic](test_out_images/statue/up_8/index_0_hr.jpg)
+![bicubic](test_out_images/stillLife/up_8/index_0_lr.jpg)  |  ![bicubic](test_out_images/stillLife/up_8/index_0_bi.jpg) |  ![bicubic](test_out_images/stillLife/up_8/index_0_sr.jpg)|  ![bicubic](test_out_images/stillLife/up_8/index_0_hr.jpg)
 
 
 #### details
