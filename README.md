@@ -25,6 +25,7 @@ Especially when the scaling factor is large.
 
 **low-res**   |  **bicubic** | **GAN** | **original**
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![bicubic](test_out_images/papillon/up_2/index_0_lr.jpg)  |  ![bicubic](test_out_images/papillon/up_2/index_0_bi.jpg) |  ![bicubic](test_out_images/papillon/up_2/index_0_sr.jpg)|  ![bicubic](test_out_images/papillon/up_2/index_0_hr.jpg)
 ![bicubic](test_out_images/statue/up_2/index_0_lr.jpg)  |  ![bicubic](test_out_images/statue/up_2/index_0_bi.jpg) |  ![bicubic](test_out_images/statue/up_2/index_0_sr.jpg)|  ![bicubic](test_out_images/statue/up_2/index_0_hr.jpg)
 ![bicubic](test_out_images/stillLife/up_2/index_0_lr.jpg)  |  ![bicubic](test_out_images/stillLife/up_2/index_0_bi.jpg) |  ![bicubic](test_out_images/stillLife/up_2/index_0_sr.jpg)|  ![bicubic](test_out_images/stillLife/up_2/index_0_hr.jpg)
 
@@ -32,6 +33,7 @@ Especially when the scaling factor is large.
 
 **low-res**   |  **bicubic** | **GAN** | **original**
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![bicubic](test_out_images/papillon/up_4/index_0_lr.jpg)  |  ![bicubic](test_out_images/papillon/up_4/index_0_bi.jpg) |  ![bicubic](test_out_images/papillon/up_4/index_0_sr.jpg)|  ![bicubic](test_out_images/papillon/up_4/index_0_hr.jpg)
 ![bicubic](test_out_images/statue/up_4/index_0_lr.jpg)  |  ![bicubic](test_out_images/statue/up_4/index_0_bi.jpg) |  ![bicubic](test_out_images/statue/up_4/index_0_sr.jpg)|  ![bicubic](test_out_images/statue/up_4/index_0_hr.jpg)
 ![bicubic](test_out_images/stillLife/up_4/index_0_lr.jpg)  |  ![bicubic](test_out_images/stillLife/up_4/index_0_bi.jpg) |  ![bicubic](test_out_images/stillLife/up_4/index_0_sr.jpg)|  ![bicubic](test_out_images/stillLife/up_4/index_0_hr.jpg)
 
@@ -39,11 +41,12 @@ Especially when the scaling factor is large.
 
 **low-res**   |  **bicubic** | **GAN** | **original**
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![bicubic](test_out_images/papillon/up_8/index_0_lr.jpg)  |  ![bicubic](test_out_images/papillon/up_8/index_0_bi.jpg) |  ![bicubic](test_out_images/papillon/up_8/index_0_sr.jpg)|  ![bicubic](test_out_images/papillon/up_8/index_0_hr.jpg)
 ![bicubic](test_out_images/statue/up_8/index_0_lr.jpg)  |  ![bicubic](test_out_images/statue/up_8/index_0_bi.jpg) |  ![bicubic](test_out_images/statue/up_8/index_0_sr.jpg)|  ![bicubic](test_out_images/statue/up_8/index_0_hr.jpg)
 ![bicubic](test_out_images/stillLife/up_8/index_0_lr.jpg)  |  ![bicubic](test_out_images/stillLife/up_8/index_0_bi.jpg) |  ![bicubic](test_out_images/stillLife/up_8/index_0_sr.jpg)|  ![bicubic](test_out_images/stillLife/up_8/index_0_hr.jpg)
 
 
-#### details
+##### details
 
 **low-res**   |  **bicubic** | **GAN** | **original**
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
