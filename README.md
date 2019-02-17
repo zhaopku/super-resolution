@@ -27,6 +27,12 @@ The **GAN-based** model produced sharper super-resolution images compared with *
 ![bicubic](test_out_images/statue/up_2/index_0_lr.jpg)  |  ![bicubic](test_out_images/statue/up_2/index_0_bi.jpg) |  ![bicubic](test_out_images/statue/up_2/index_0_sr.jpg)|  ![bicubic](test_out_images/statue/up_2/index_0_hr.jpg)
 ![bicubic](test_out_images/stillLife/up_2/index_0_lr.jpg)  |  ![bicubic](test_out_images/stillLife/up_2/index_0_bi.jpg) |  ![bicubic](test_out_images/stillLife/up_2/index_0_sr.jpg)|  ![bicubic](test_out_images/stillLife/up_2/index_0_hr.jpg)
 
+### up scale by 4
+
+**low-res**   |  **bicubic** | **GAN** | **original**
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![bicubic](test_out_images/statue/up_4/index_0_lr.jpg)  |  ![bicubic](test_out_images/statue/up_4/index_0_bi.jpg) |  ![bicubic](test_out_images/statue/up_4/index_0_sr.jpg)|  ![bicubic](test_out_images/statue/up_4/index_0_hr.jpg)
+![bicubic](test_out_images/stillLife/up_4/index_0_lr.jpg)  |  ![bicubic](test_out_images/stillLife/up_4/index_0_bi.jpg) |  ![bicubic](test_out_images/stillLife/up_4/index_0_sr.jpg)|  ![bicubic](test_out_images/stillLife/up_4/index_0_hr.jpg)
 
 
 #### details
