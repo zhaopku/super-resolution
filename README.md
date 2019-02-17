@@ -1,5 +1,7 @@
 # Single Image Super-Resolution with GAN on HCI Data
 
+Please see the [Examples](## Examples)
+
 ## Dataset
 
 **Train&Val**: [VOC2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)
@@ -19,7 +21,8 @@ The above command trains a GAN-based model, with upscale factor 4.
 ## Examples
 
 The **GAN-based** model produced sharper super-resolution images compared with **bicubic**. 
-Especially when the scaling factor is large.
+
+**Especially when the scaling factor is large**.
 
 ### up scale by 2
 
