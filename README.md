@@ -4,6 +4,8 @@ Please see [Examples](## Examples).
 
 All results, including PSNR and SSIM, are available in the folder **test_out_images**.
 
+## For Cell Images
+
 Please refer to [this link](https://zhaopku.github.io/sr.html) for similar experiments for cell images. 
 
 The results for cell images are better. One explanation is that cell images are of 1-channel, and the structure of
