@@ -18,16 +18,6 @@ cell images is simple.
 **Train&Val**: [VOC2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/)
 
 **Test**: [HCI lightfield Dataset](http://lightfieldgroup.iwr.uni-heidelberg.de/?page_id=713)
-
-## Requirements
-    1. PyTorch 1.0
-    2. tqdm
-
-### Example Usage
-    
-    python main.py --model SRGAN --lr 0.001 --upscale_factor 4 --batch_size 100 --epochs 100 --n_save 2 --gamma 0.001 --theta 0.01 --sigma 0.001
-        
-The above command trains a GAN-based model, with upscale factor 4.
         
 ## Examples
 
