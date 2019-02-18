@@ -1,8 +1,10 @@
 # Single Image Super-Resolution with GAN on HCI Data
 
-Please see [Examples](## Examples).
+Please see [Examples](#Examples).
 
 All results, including PSNR and SSIM, are available in the folder **test_out_images**.
+
+This repo is a reimplementation of [this paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Ledig_Photo-Realistic_Single_Image_CVPR_2017_paper.pdf).
 
 ## For Cell Images
 
