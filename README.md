@@ -79,4 +79,4 @@ as in [cell images](https://zhaopku.github.io/sr.html), but GAN is still better 
 
 ## Examples of Cell Images
 
-[Examples of Cell Images](https://zhaopku.github.io/sr.html)
+[Link](https://zhaopku.github.io/sr.html)
