@@ -31,7 +31,8 @@ The above command trains a GAN-based model, with upscale factor 4.
 
 The **GAN-based** model produced sharper super-resolution images compared with **bicubic**. 
 
-**Especially when the scaling factor is large**.
+**Especially when the scaling factor is large**. However, when scaling factor is 8, the performance is not as good
+as in [cell images](https://zhaopku.github.io/sr.html), but GAN is still better than bicubic.
 
 ### up scale by 2
 
