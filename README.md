@@ -23,8 +23,8 @@ cell images is simple.
 
 Below are examples from **papillon**, **statue**, and **stillLife**. 
 
-The **GAN-based** model produced sharper super-resolution images compared with **bicubic**. 
-Especially when the scaling factor is large. However, when scaling factor is 8, the performance is not as good
+The GAN-based model produced sharper super-resolution images compared with bicubic, 
+especially when the scaling factor is large. However, when scaling factor is 8, the performance is not as good
 as in [cell images](https://zhaopku.github.io/sr.html), but GAN is still better than bicubic.
 
 ### up scale by 2 (full image)
