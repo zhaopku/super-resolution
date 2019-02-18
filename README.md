@@ -29,6 +29,8 @@ The above command trains a GAN-based model, with upscale factor 4.
         
 ## Examples
 
+Below are examples from **papillon**, **statue**, and **stillLife**. 
+
 The **GAN-based** model produced sharper super-resolution images compared with **bicubic**. 
 
 **Especially when the scaling factor is large**. However, when scaling factor is 8, the performance is not as good
