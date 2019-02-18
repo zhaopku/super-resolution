@@ -34,13 +34,15 @@ The **GAN-based** model produced sharper super-resolution images compared with *
 **Especially when the scaling factor is large**. However, when scaling factor is 8, the performance is not as good
 as in [cell images](https://zhaopku.github.io/sr.html), but GAN is still better than bicubic.
 
-### up scale by 2
+### up scale by 2 (full image)
 
 **low-res**   |  **bicubic** | **GAN** | **original**
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![low-res](test_out_images/papillon/up_2/index_0_lr.jpg)  |  ![bicubic](test_out_images/papillon/up_2/index_0_bi.jpg) |  ![GAN](test_out_images/papillon/up_2/index_0_sr.jpg)|  ![original](test_out_images/papillon/up_2/index_0_hr.jpg)
 ![low-res](test_out_images/statue/up_2/index_0_lr.jpg)  |  ![bicubic](test_out_images/statue/up_2/index_0_bi.jpg) |  ![GAN](test_out_images/statue/up_2/index_0_sr.jpg)|  ![original](test_out_images/statue/up_2/index_0_hr.jpg)
 ![low-res](test_out_images/stillLife/up_2/index_0_lr.jpg)  |  ![bicubic](test_out_images/stillLife/up_2/index_0_bi.jpg) |  ![GAN](test_out_images/stillLife/up_2/index_0_sr.jpg)|  ![original](test_out_images/stillLife/up_2/index_0_hr.jpg)
+
+### up scale by 2 (details)
 
  **bicubic** | **GAN** | **original**
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -49,7 +51,7 @@ as in [cell images](https://zhaopku.github.io/sr.html), but GAN is still better 
 ![bicubic](test_out_images/stillLife/up_2/cr_index_0_bi.jpg) |  ![GAN](test_out_images/stillLife/up_2/cr_index_0_sr.jpg)|  ![original](test_out_images/stillLife/up_2/cr_index_0_hr.jpg)
 
 
-### up scale by 4
+### up scale by 4 (full image)
 
 **low-res**   |  **bicubic** | **GAN** | **original**
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
@@ -57,19 +59,24 @@ as in [cell images](https://zhaopku.github.io/sr.html), but GAN is still better 
 ![low-res](test_out_images/statue/up_4/index_0_lr.jpg)  |  ![bicubic](test_out_images/statue/up_4/index_0_bi.jpg) |  ![GAN](test_out_images/statue/up_4/index_0_sr.jpg)|  ![original](test_out_images/statue/up_4/index_0_hr.jpg)
 ![low-res](test_out_images/stillLife/up_4/index_0_lr.jpg)  |  ![bicubic](test_out_images/stillLife/up_4/index_0_bi.jpg) |  ![GAN](test_out_images/stillLife/up_4/index_0_sr.jpg)|  ![original](test_out_images/stillLife/up_4/index_0_hr.jpg)
 
+### up scale by 4 (details)
+
+
  **bicubic** | **GAN** | **original**
 :-------------------------:|:-------------------------:|:-------------------------:
 ![bicubic](test_out_images/papillon/up_4/cr_index_0_bi.jpg) |  ![GAN](test_out_images/papillon/up_4/cr_index_0_sr.jpg)|  ![original](test_out_images/papillon/up_4/cr_index_0_hr.jpg)
 ![bicubic](test_out_images/statue/up_4/cr_index_0_bi.jpg) |  ![GAN](test_out_images/statue/up_4/cr_index_0_sr.jpg)|  ![original](test_out_images/statue/up_4/cr_index_0_hr.jpg)
 ![bicubic](test_out_images/stillLife/up_4/cr_index_0_bi.jpg) |  ![GAN](test_out_images/stillLife/up_4/cr_index_0_sr.jpg)|  ![original](test_out_images/stillLife/up_4/cr_index_0_hr.jpg)
 
-### up scale by 8
+### up scale by 8 (full image)
 
 **low-res**   |  **bicubic** | **GAN** | **original**
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![low-res](test_out_images/papillon/up_8/index_0_lr.jpg)  |  ![bicubic](test_out_images/papillon/up_8/index_0_bi.jpg) |  ![GAN](test_out_images/papillon/up_8/index_0_sr.jpg)|  ![original](test_out_images/papillon/up_8/index_0_hr.jpg)
 ![low-res](test_out_images/statue/up_8/index_0_lr.jpg)  |  ![bicubic](test_out_images/statue/up_8/index_0_bi.jpg) |  ![GAN](test_out_images/statue/up_8/index_0_sr.jpg)|  ![original](test_out_images/statue/up_8/index_0_hr.jpg)
 ![low-res](test_out_images/stillLife/up_8/index_0_lr.jpg)  |  ![bicubic](test_out_images/stillLife/up_8/index_0_bi.jpg) |  ![GAN](test_out_images/stillLife/up_8/index_0_sr.jpg)|  ![original](test_out_images/stillLife/up_8/index_0_hr.jpg)
+
+### up scale by 8 (details)
 
  **bicubic** | **GAN** | **original**
 :-------------------------:|:-------------------------:|:-------------------------:
