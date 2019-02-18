@@ -1,6 +1,13 @@
 # Single Image Super-Resolution with GAN on HCI Data
 
-Please see the [Examples](## Examples)
+Please see [Examples](## Examples).
+
+All results, including PSNR and SSIM, are available in the folder **test_out_images**.
+
+Please refer to [this link](https://zhaopku.github.io/sr.html) for similar experiments for cell images. 
+
+The results for cell images are better. One explanation is that cell images are of 1-channel, and the structure of
+cell images is simple.
 
 ## Dataset
 
@@ -28,29 +35,41 @@ The **GAN-based** model produced sharper super-resolution images compared with *
 
 **low-res**   |  **bicubic** | **GAN** | **original**
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![bicubic](test_out_images/papillon/up_2/index_0_lr.jpg)  |  ![bicubic](test_out_images/papillon/up_2/index_0_bi.jpg) |  ![bicubic](test_out_images/papillon/up_2/index_0_sr.jpg)|  ![bicubic](test_out_images/papillon/up_2/index_0_hr.jpg)
-![bicubic](test_out_images/statue/up_2/index_0_lr.jpg)  |  ![bicubic](test_out_images/statue/up_2/index_0_bi.jpg) |  ![bicubic](test_out_images/statue/up_2/index_0_sr.jpg)|  ![bicubic](test_out_images/statue/up_2/index_0_hr.jpg)
-![bicubic](test_out_images/stillLife/up_2/index_0_lr.jpg)  |  ![bicubic](test_out_images/stillLife/up_2/index_0_bi.jpg) |  ![bicubic](test_out_images/stillLife/up_2/index_0_sr.jpg)|  ![bicubic](test_out_images/stillLife/up_2/index_0_hr.jpg)
+![low-res](test_out_images/papillon/up_2/index_0_lr.jpg)  |  ![bicubic](test_out_images/papillon/up_2/index_0_bi.jpg) |  ![GAN](test_out_images/papillon/up_2/index_0_sr.jpg)|  ![original](test_out_images/papillon/up_2/index_0_hr.jpg)
+![low-res](test_out_images/statue/up_2/index_0_lr.jpg)  |  ![bicubic](test_out_images/statue/up_2/index_0_bi.jpg) |  ![GAN](test_out_images/statue/up_2/index_0_sr.jpg)|  ![original](test_out_images/statue/up_2/index_0_hr.jpg)
+![low-res](test_out_images/stillLife/up_2/index_0_lr.jpg)  |  ![bicubic](test_out_images/stillLife/up_2/index_0_bi.jpg) |  ![GAN](test_out_images/stillLife/up_2/index_0_sr.jpg)|  ![original](test_out_images/stillLife/up_2/index_0_hr.jpg)
+
+ **bicubic** | **GAN** | **original**
+:-------------------------:|:-------------------------:|:-------------------------:
+![bicubic](test_out_images/papillon/up_2/cr_index_0_bi.jpg) |  ![GAN](test_out_images/papillon/up_2/cr_index_0_sr.jpg)|  ![original](test_out_images/papillon/up_2/cr_index_0_hr.jpg)
+![bicubic](test_out_images/statue/up_2/cr_index_0_bi.jpg) |  ![GAN](test_out_images/statue/up_2/cr_index_0_sr.jpg)|  ![original](test_out_images/statue/up_2/cr_index_0_hr.jpg)
+![bicubic](test_out_images/stillLife/up_2/cr_index_0_bi.jpg) |  ![GAN](test_out_images/stillLife/up_2/cr_index_0_sr.jpg)|  ![original](test_out_images/stillLife/up_2/cr_index_0_hr.jpg)
+
 
 ### up scale by 4
 
 **low-res**   |  **bicubic** | **GAN** | **original**
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![bicubic](test_out_images/papillon/up_4/index_0_lr.jpg)  |  ![bicubic](test_out_images/papillon/up_4/index_0_bi.jpg) |  ![bicubic](test_out_images/papillon/up_4/index_0_sr.jpg)|  ![bicubic](test_out_images/papillon/up_4/index_0_hr.jpg)
-![bicubic](test_out_images/statue/up_4/index_0_lr.jpg)  |  ![bicubic](test_out_images/statue/up_4/index_0_bi.jpg) |  ![bicubic](test_out_images/statue/up_4/index_0_sr.jpg)|  ![bicubic](test_out_images/statue/up_4/index_0_hr.jpg)
-![bicubic](test_out_images/stillLife/up_4/index_0_lr.jpg)  |  ![bicubic](test_out_images/stillLife/up_4/index_0_bi.jpg) |  ![bicubic](test_out_images/stillLife/up_4/index_0_sr.jpg)|  ![bicubic](test_out_images/stillLife/up_4/index_0_hr.jpg)
+![low-res](test_out_images/papillon/up_4/index_0_lr.jpg)  |  ![bicubic](test_out_images/papillon/up_4/index_0_bi.jpg) |  ![GAN](test_out_images/papillon/up_4/index_0_sr.jpg)|  ![original](test_out_images/papillon/up_4/index_0_hr.jpg)
+![low-res](test_out_images/statue/up_4/index_0_lr.jpg)  |  ![bicubic](test_out_images/statue/up_4/index_0_bi.jpg) |  ![GAN](test_out_images/statue/up_4/index_0_sr.jpg)|  ![original](test_out_images/statue/up_4/index_0_hr.jpg)
+![low-res](test_out_images/stillLife/up_4/index_0_lr.jpg)  |  ![bicubic](test_out_images/stillLife/up_4/index_0_bi.jpg) |  ![GAN](test_out_images/stillLife/up_4/index_0_sr.jpg)|  ![original](test_out_images/stillLife/up_4/index_0_hr.jpg)
+
+ **bicubic** | **GAN** | **original**
+:-------------------------:|:-------------------------:|:-------------------------:
+![bicubic](test_out_images/papillon/up_4/cr_index_0_bi.jpg) |  ![GAN](test_out_images/papillon/up_4/cr_index_0_sr.jpg)|  ![original](test_out_images/papillon/up_4/cr_index_0_hr.jpg)
+![bicubic](test_out_images/statue/up_4/cr_index_0_bi.jpg) |  ![GAN](test_out_images/statue/up_4/cr_index_0_sr.jpg)|  ![original](test_out_images/statue/up_4/cr_index_0_hr.jpg)
+![bicubic](test_out_images/stillLife/up_4/cr_index_0_bi.jpg) |  ![GAN](test_out_images/stillLife/up_4/cr_index_0_sr.jpg)|  ![original](test_out_images/stillLife/up_4/cr_index_0_hr.jpg)
 
 ### up scale by 8
 
 **low-res**   |  **bicubic** | **GAN** | **original**
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![bicubic](test_out_images/papillon/up_8/index_0_lr.jpg)  |  ![bicubic](test_out_images/papillon/up_8/index_0_bi.jpg) |  ![bicubic](test_out_images/papillon/up_8/index_0_sr.jpg)|  ![bicubic](test_out_images/papillon/up_8/index_0_hr.jpg)
-![bicubic](test_out_images/statue/up_8/index_0_lr.jpg)  |  ![bicubic](test_out_images/statue/up_8/index_0_bi.jpg) |  ![bicubic](test_out_images/statue/up_8/index_0_sr.jpg)|  ![bicubic](test_out_images/statue/up_8/index_0_hr.jpg)
-![bicubic](test_out_images/stillLife/up_8/index_0_lr.jpg)  |  ![bicubic](test_out_images/stillLife/up_8/index_0_bi.jpg) |  ![bicubic](test_out_images/stillLife/up_8/index_0_sr.jpg)|  ![bicubic](test_out_images/stillLife/up_8/index_0_hr.jpg)
+![low-res](test_out_images/papillon/up_8/index_0_lr.jpg)  |  ![bicubic](test_out_images/papillon/up_8/index_0_bi.jpg) |  ![GAN](test_out_images/papillon/up_8/index_0_sr.jpg)|  ![original](test_out_images/papillon/up_8/index_0_hr.jpg)
+![low-res](test_out_images/statue/up_8/index_0_lr.jpg)  |  ![bicubic](test_out_images/statue/up_8/index_0_bi.jpg) |  ![GAN](test_out_images/statue/up_8/index_0_sr.jpg)|  ![original](test_out_images/statue/up_8/index_0_hr.jpg)
+![low-res](test_out_images/stillLife/up_8/index_0_lr.jpg)  |  ![bicubic](test_out_images/stillLife/up_8/index_0_bi.jpg) |  ![GAN](test_out_images/stillLife/up_8/index_0_sr.jpg)|  ![original](test_out_images/stillLife/up_8/index_0_hr.jpg)
 
-
-##### details
-
-**low-res**   |  **bicubic** | **GAN** | **original**
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![bicubic](test_out_images/statue/up_2/index_0_lr.jpg)  |  ![bicubic](test_out_images/statue/up_2/index_0_bi.jpg) |  ![bicubic](test_out_images/statue/up_2/index_0_sr.jpg)|  ![bicubic](test_out_images/statue/up_2/index_0_hr.jpg)
+ **bicubic** | **GAN** | **original**
+:-------------------------:|:-------------------------:|:-------------------------:
+![bicubic](test_out_images/papillon/up_8/cr_index_0_bi.jpg) |  ![GAN](test_out_images/papillon/up_8/cr_index_0_sr.jpg)|  ![original](test_out_images/papillon/up_8/cr_index_0_hr.jpg)
+![bicubic](test_out_images/statue/up_8/cr_index_0_bi.jpg) |  ![GAN](test_out_images/statue/up_8/cr_index_0_sr.jpg)|  ![original](test_out_images/statue/up_8/cr_index_0_hr.jpg)
+![bicubic](test_out_images/stillLife/up_8/cr_index_0_bi.jpg) |  ![GAN](test_out_images/stillLife/up_8/cr_index_0_sr.jpg)|  ![original](test_out_images/stillLife/up_8/cr_index_0_hr.jpg)
