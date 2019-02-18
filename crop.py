@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 from tqdm import tqdm
 
-path = 'test_out_images/papillon/up_8'
+path = 'test_out_images/statue/up_8'
 
 all_file_names = os.listdir(path)
 
@@ -15,6 +15,6 @@ for file_name in all_file_names:
 
 	# for papillon
 	#img2 = img.crop((316, 301, 695, 682))
-	img2 = img.crop((316, 301, 695, 682))
+	img2 = img.crop((336, 102, 501, 231))
 
 	img2.save(os.path.join(path, 'cr_'+file_name))
