@@ -88,4 +88,6 @@ as in [cell images](https://zhaopku.github.io/sr.html), but GAN is still better 
 ![bicubic](test_out_images/statue/up_8/cr_index_0_bi.jpg) |  ![GAN](test_out_images/statue/up_8/cr_index_0_sr.jpg)|  ![original](test_out_images/statue/up_8/cr_index_0_hr.jpg)
 ![bicubic](test_out_images/stillLife/up_8/cr_index_0_bi.jpg) |  ![GAN](test_out_images/stillLife/up_8/cr_index_0_sr.jpg)|  ![original](test_out_images/stillLife/up_8/cr_index_0_hr.jpg)
 
+## Examples of Cell Images
+
 [Examples of Cell Images](https://zhaopku.github.io/sr.html)
